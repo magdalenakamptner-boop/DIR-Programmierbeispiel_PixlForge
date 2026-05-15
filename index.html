@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PixlForge – KI-Grafiksoftware für Illustration, 3D, Architektur und VFX</title>
+  <meta name="description" content="PixlForge ist eine professionelle, KI-gestützte Grafiksoftware für Vektordesign, 3D-Modellierung, Architekturvisualisierung und VFX-Compositing. Einmaliger Kauf, kein Abo.">
+  <meta name="theme-color" content="#7b5cf5">
+
+  <meta property="og:title"       content="PixlForge – KI-Grafiksoftware">
+  <meta property="og:description" content="Professionelle Grafiksoftware mit KI-Assistent. Einmal kaufen, dauerhaft nutzen.">
+  <meta property="og:type"        content="website">
+  <meta property="og:locale"      content="de_AT">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main-content">Zum Hauptinhalt springen</a>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════════════════════════ -->
+<nav role="navigation" aria-label="Hauptnavigation">
+  <div class="nav-inner">
+    <a class="nav-logo" href="#" onclick="showPage('home'); return false;" aria-label="PixlForge – zur Startseite">
+      <span class="nav-logo-icon" aria-hidden="true">
+        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="10" width="4" height="4"/>
+          <rect x="6"  y="6"  width="4" height="4"/>
+          <rect x="10" y="2"  width="4" height="4"/>
+          <rect x="14" y="6"  width="4" height="4"/>
+          <rect x="10" y="10" width="4" height="4"/>
+          <rect x="6"  y="14" width="4" height="4"/>
+        </svg>
+      </span>
+      PixlForge
+    </a>
+
+    <button class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="nav-links"
+            aria-label="Menü öffnen"
+            onclick="toggleNav(this)">☰</button>
+
+    <ul class="nav-links" id="nav-links" role="list">
+      <li><a href="#" data-page="features" onclick="showPage('features'); return false;">Features</a></li>
+      <li><a href="#" data-page="about"    onclick="showPage('about'); return false;">Über uns</a></li>
+      <li><a href="#" data-page="kontakt"  onclick="showPage('kontakt'); return false;">Kontakt</a></li>
+      <li><a href="#" class="nav-cta"      onclick="showPage('shop'); return false;">Jetzt kaufen</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  HOME                                                     ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-home" class="page active" role="region" aria-label="Startseite">
+
+  <div class="pixel-bg">
+    <section class="hero container">
+      <p class="hero-eyebrow">Neu: PixlForge 1.4 — jetzt mit erweitertem KI-Assistenten</p>
+      <h1>Grafik-Software,<br>die <em>mitdenkt.</em></h1>
+      <p class="hero-sub">
+        Professionelle Vektorzeichnung, 3D-Modellierung und VFX-Compositing
+        mit integrierter KI-Unterstützung. Einmal kaufen, dauerhaft nutzen
+        — ohne monatliches Abonnement und ohne Zwang zur Cloud-Anbindung.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary" onclick="showPage('shop'); return false;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          Lizenz kaufen ab €49
+        </a>
+        <a href="#" class="btn btn-ghost" onclick="showPage('features'); return false;">Funktionen entdecken</a>
+      </div>
+      <div class="hero-badge" role="note">
+        <span class="dot" aria-hidden="true">●</span>
+        Über 12.000 verkaufte Lizenzen seit 2024
+      </div>
+    </section>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <p class="label">Funktionen im Überblick</p>
+        <h2>Eine Software, vier Disziplinen</h2>
+        <p>PixlForge vereint Vektordesign, 3D-Modellierung, Architekturvisualisierung und VFX-Compositing in einer einzigen Desktop-Anwendung.</p>
+      </div>
+
+      <div class="feature-grid" role="list">
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Vektordesign</h3>
+          <p>Präzise Bézierkurven, Ankerpunkt-Editor und ebenenbasierter Workflow für Logos, Illustrationen und Druckvorlagen.</p>
+        </article>
+
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+          <h3>KI-Assistent</h3>
+          <p>Lokal laufende KI-Modelle für automatische Pfadvervollständigung, Stil-Transfer und intelligente Farbpaletten-Vorschläge.</p>
+        </article>
+
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>3D-Modellierung</h3>
+          <p>Polygonale Modellierung mit Subdivision-Surface-Workflow, integriertem PBR-Renderer und Echtzeit-Materialvorschau.</p>
+        </article>
+
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <h3>Flexibler Export</h3>
+          <p>Export in SVG, PNG, PDF, EPS, FBX und OBJ. Frei wählbare Auflösungen sowie Farbprofile in RGB und CMYK.</p>
+        </article>
+
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Stift-Tablet-Support</h3>
+          <p>Volle Drucksensitivität und Neigungs­erkennung für Wacom-, XP-Pen- und Huion-Tablets sowie für den Apple Pencil.</p>
+        </article>
+
+        <article class="feature-card" role="listitem">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Plugin-Schnittstelle</h3>
+          <p>Offene Plugin-API auf Python-Basis zum Schreiben eigener Werkzeuge sowie Zugriff auf den PixlForge-Marketplace.</p>
+        </article>
+      </div>
+
+      <div style="text-align:center; margin-top:2.5rem;">
+        <a href="#" class="btn btn-ghost" onclick="showPage('features'); return false;">Alle Funktionen im Detail ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="section-header">
+        <p class="label">Kundenstimmen</p>
+        <h2>Was unsere Nutzerinnen und Nutzer sagen</h2>
+      </div>
+      <div class="testimonial-grid">
+        <article class="testimonial">
+          <blockquote>„Endlich ein professionelles Vektor-Werkzeug, das ich einmal kaufe und nicht monatlich finanziere. Der KI-Assistent spart mir in der täglichen Arbeit mindestens eine Stunde Zeit ein."</blockquote>
+          <cite><strong>Miriam K.</strong>, Freischaffende Illustratorin, Berlin</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>„Der SVG-Export liefert exakt die saubere Pfadstruktur, die ich für meine Spiele-Grafiken benötige. Kein anderes Programm, das ich getestet habe, kommt an diese Präzision heran."</blockquote>
+          <cite><strong>Thomas R.</strong>, Indie-Game-Artist, Wien</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>„Ich habe PixlForge meinen Studierenden empfohlen: €49 einmalig statt mehrerer hundert Euro jährlich für Abonnement-Software. Das verändert den Zugang zu professionellen Werkzeugen grundlegend."</blockquote>
+          <cite><strong>Prof. Sandra L.</strong>, Fachhochschule für Design, Graz</cite>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:3rem;text-align:center;">
+        <p class="label">Loslegen</p>
+        <h2 style="margin-bottom:1rem;color:var(--text);">Bereit, Ihre nächste Idee zu gestalten?</h2>
+        <p style="max-width:500px;margin:0 auto 2rem;">Testen Sie PixlForge 14 Tage lang vollständig kostenlos. Keine Kreditkarten­hinterlegung, kein automatisch verlängerndes Abonnement. Programm herunterladen, installieren, loslegen.</p>
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+          <a href="#" class="btn btn-primary" onclick="showPage('shop'); return false;">Kostenlose Testversion</a>
+          <a href="#" class="btn btn-ghost"   onclick="showPage('shop'); return false;">Preise vergleichen</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /home -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  FEATURES                                                 ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-features" class="page" role="region" aria-label="Features">
+
+  <div class="pixel-bg">
+    <section style="padding:5rem 0 3rem;">
+      <div class="container">
+        <p class="label">Funktionen</p>
+        <h1>Vier Arbeitsbereiche, eine Anwendung</h1>
+        <p style="max-width:700px;margin-top:0.75rem;">PixlForge wurde entwickelt, um die wichtigsten gestalterischen und visuellen Disziplinen in einer durchgängigen Software­umgebung zu vereinen. Statt für jeden Arbeits­schritt zwischen verschiedenen Programmen wechseln zu müssen, arbeiten Sie an Vektorgrafiken, 3D-Szenen, Architekturmodellen und VFX-Compositings in derselben Oberfläche.</p>
+      </div>
+    </section>
+  </div>
+
+  <section style="padding-top:1rem;">
+    <div class="container">
+
+      <div class="feature-block">
+        <div class="feature-text">
+          <p class="feature-eyebrow">Modul 1 — Vektordesign</p>
+          <h2>Präzise Vektorillustration</h2>
+          <p>Das Vektor-Modul von PixlForge bietet einen vollständigen Werkzeug­satz für die Erstellung skalierbarer Grafiken: Logos, Markenidentitäten, Plakatgestaltung, Buchcover und Spiel-Assets. Bézierkurven werden mit einem überarbeiteten Ankerpunkt-Editor bearbeitet, der auch komplexe Pfade übersichtlich hält.</p>
+          <p>Der ebenenbasierte Workflow ist non-destruktiv: jede Anpassung lässt sich jederzeit rückgängig machen oder neu konfigurieren, ohne dass Originaldaten überschrieben werden.</p>
+          <ul>
+            <li>Bézier-Werkzeug mit symmetrischer und asymmetrischer Griffsteuerung</li>
+            <li>Booleansche Pfad­operationen: Vereinigen, Subtrahieren, Schneiden, Differenz</li>
+            <li>Pathfinder-Werkzeuge zur automatischen Bereinigung überlappender Pfade</li>
+            <li>Über 2.000 vorinstallierte Vektor-Symbole und Muster</li>
+          </ul>
+        </div>
+        <figure class="feature-image">
+          <img src="assets/feature-vector-design.png" alt="Designerin arbeitet an einem kreisförmigen Vektor-Logo mit Berg- und Sonnenmotiv in einer Vektor-Software auf einem Laptop. Im Hintergrund sind Designinspirationen an der Wand zu sehen.">
+        </figure>
+      </div>
+
+      <div class="feature-block reverse">
+        <div class="feature-text">
+          <p class="feature-eyebrow">Modul 2 — 3D-Modellierung</p>
+          <h2>Polygonale 3D-Modellierung mit Echtzeit-Rendering</h2>
+          <p>Das 3D-Modul ermöglicht den Aufbau dreidimensionaler Szenen von der einzelnen Requisite bis zur komplexen Spielwelt. Die Modellierung erfolgt polygonal mit Subdivision-Surface-Workflow; texturierte Oberflächen werden direkt im Viewport mit physikalisch basiertem Rendering (PBR) dargestellt.</p>
+          <p>Modelle lassen sich für Spiele-Engines wie Unity oder Unreal exportieren, aber auch direkt im integrierten Pathtracer für hochauflösende Stand­bilder rendern.</p>
+          <ul>
+            <li>Modellierung mit Vertex-, Edge- und Face-Werkzeugen</li>
+            <li>Sculpt-Modus mit drucksensitiven Pinseln</li>
+            <li>UV-Unwrapping und Texturmalerei innerhalb derselben Anwendung</li>
+            <li>Export in die Formate FBX, OBJ, glTF und USD</li>
+          </ul>
+        </div>
+        <figure class="feature-image">
+          <img src="assets/feature-3d-modeling.png" alt="Künstler modelliert eine stilisierte 3D-Szene mit einem Holzhaus auf einer schwebenden Insel in einer 3D-Software auf einem Laptop. Im Hintergrund eine Zimmerpflanze.">
+        </figure>
+      </div>
+
+      <div class="feature-block">
+        <div class="feature-text">
+          <p class="feature-eyebrow">Modul 3 — Architektur</p>
+          <h2>Architekturmodellierung und -visualisierung</h2>
+          <p>Mit dem Architektur-Modul erstellen Sie maßstabs­getreue Gebäude­modelle, Innenraum­visualisierungen und städtebauliche Studien. Anders als bei reinen 3D-Modellierungs­werkzeugen sind hier parametrische Bauelemente wie Wände, Fenster, Türen und Dachkonstruktionen direkt verfügbar und über Maßangaben editierbar.</p>
+          <p>Eingebaute Materialbibliotheken decken übliche Baustoffe ab — von Sichtbeton über Holz­vertäfelungen bis zu Glas­fassaden — und sind frei erweiterbar.</p>
+          <ul>
+            <li>Parametrische Bauelemente mit metrischer und imperialer Maßangabe</li>
+            <li>Schnittansichten, Grundriss- und Aufriss-Generierung auf Knopfdruck</li>
+            <li>Bibliothek mit über 400 Möbel- und Einrichtungsmodellen</li>
+            <li>Sonnenstand-Simulation zu beliebigem Datum und Standort</li>
+          </ul>
+        </div>
+        <figure class="feature-image">
+          <img src="assets/feature-architecture.png" alt="Architekt arbeitet an einem modernen, mehrstöckigen Wohnhaus-Modell in einer 3D-Architektursoftware auf einem Laptop. Sichtbar sind Material-Paletten und Werkzeugleisten.">
+        </figure>
+      </div>
+
+      <div class="feature-block reverse">
+        <div class="feature-text">
+          <p class="feature-eyebrow">Modul 4 — VFX &amp; Compositing</p>
+          <h2>Visual Effects und knotenbasiertes Compositing</h2>
+          <p>Das VFX-Modul ist für Bewegtbild-Workflows konzipiert: Farbkorrektur, Roto­skopieren, Keying, Tracking und das Zusammen­führen mehrerer Bildebenen zu einer abgestimmten Endkomposition. Die Bedienung erfolgt knotenbasiert, vergleichbar mit professionellen Werkzeugen wie Nuke oder Fusion, jedoch mit deutlich flacherer Lernkurve.</p>
+          <p>Bewegungs­daten lassen sich aus dem 3D-Modul übernehmen, sodass virtuelle Kameras und reale Footage präzise zusammen­geführt werden können.</p>
+          <ul>
+            <li>Knotenbasierter Compositor mit Echtzeit-Vorschau bis 4K</li>
+            <li>Eingebauter 2D- und 3D-Tracker für Kamera- und Punkt­verfolgung</li>
+            <li>Greenscreen-Keying mit automatischer Spill-Suppression</li>
+            <li>Unterstützung gängiger Videoformate: ProRes, DNxHR, H.264, H.265, EXR-Sequenzen</li>
+          </ul>
+        </div>
+        <figure class="feature-image">
+          <img src="assets/feature-vfx-compositing.png" alt="VFX-Künstlerin bearbeitet eine Filmsequenz mit einem roten Auto in einer neonbeleuchteten Stadt in einer knotenbasierten Compositing-Software auf einem Laptop.">
+        </figure>
+      </div>
+
+      <div style="margin-top:4rem; padding:2.5rem; background:var(--bg2); border:1px solid var(--border); border-radius:var(--radius-lg);">
+        <p style="font-family:var(--mono);font-size:0.75rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent2);margin-bottom:0.75rem;">Modul­übergreifend — KI-Assistent</p>
+        <h2 style="font-size:1.5rem;color:var(--text);margin-bottom:1rem;">In allen vier Modulen verfügbar: der PixlForge KI-Assistent</h2>
+        <p>Der KI-Assistent läuft lokal auf Ihrem Rechner — Ihre Arbeits­dateien verlassen das Gerät zu keiner Zeit. Im Vektor-Modul vervollständigt er angefangene Pfade, im 3D-Modul schlägt er passende Materialien vor, im Architektur-Modul erkennt er Grundriss­strukturen aus gescannten Skizzen, und im VFX-Modul beschleunigt er die automatische Roto­skopierung.</p>
+        <p>Die KI-Funktionen sind optional und können jederzeit vollständig deaktiviert werden. PixlForge funktioniert auch ohne aktive KI-Komponente vollständig — der Assistent ist ein Hilfsmittel, kein Pflichtbestandteil des Arbeitsprozesses.</p>
+      </div>
+
+      <div style="text-align:center; margin-top:4rem;">
+        <a href="#" class="btn btn-primary" onclick="showPage('shop'); return false;">Lizenz erwerben</a>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /features -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  SHOP                                                     ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-shop" class="page" role="region" aria-label="Shop">
+  <section>
+    <div class="container">
+      <div class="section-header" style="padding-top:3rem;">
+        <p class="label">Lizenzen</p>
+        <h1>Wählen Sie Ihre Lizenz</h1>
+        <p>Einmaliger Kauf — Sie erwerben das Nutzungsrecht an PixlForge dauerhaft. Es entstehen keine wiederkehrenden Kosten, keine automatisch verlängernden Abonnements und keine versteckten Folgegebühren.</p>
+      </div>
+
+      <div class="pricing-grid">
+
+        <div class="pricing-card">
+          <p class="pricing-name">Starter</p>
+          <p class="pricing-price"><sup>€</sup>49</p>
+          <p class="pricing-note">Einmalzahlung · 1 Gerät · Private Nutzung</p>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features" aria-label="Funktionen der Starter-Lizenz">
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Alle Kern-Zeichenwerkzeuge</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Export in SVG, PNG, PDF</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Basis-Asset-Bibliothek</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Stift-Tablet-Unterstützung</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>12 Monate kostenlose Updates</li>
+            <li class="no" ><span class="icon" aria-hidden="true">–</span>KI-Assistent nicht enthalten</li>
+            <li class="no" ><span class="icon" aria-hidden="true">–</span>Plugin-Schnittstelle nicht enthalten</li>
+            <li class="no" ><span class="icon" aria-hidden="true">–</span>Kommerzielle Nutzung nicht gestattet</li>
+          </ul>
+          <button class="btn btn-ghost" onclick="handlePurchase('Starter', 49)" aria-label="Starter-Lizenz für 49 Euro erwerben">Starter erwerben</button>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="pricing-badge" aria-label="Empfohlene Lizenz">Empfohlen</div>
+          <p class="pricing-name">Pro</p>
+          <p class="pricing-price"><sup>€</sup>79</p>
+          <p class="pricing-note">Einmalzahlung · 2 Geräte · Kommerzielle Nutzung erlaubt</p>
+          <div class="pricing-divider"></div>
+          <ul class="pricing-features" aria-label="Funktionen der Pro-Lizenz">
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Sämtliche Starter-Funktionen</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>KI-Assistent in vollem Umfang</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Zugriff auf die Plugin-Schnittstelle</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Vollständige Asset-Bibliothek</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Uneingeschränkte kommerzielle Nutzung</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>24 Monate kostenlose Updates</li>
+            <li class="yes"><span class="icon" aria-hidden="true">✓</span>Prioritäts-Support per E-Mail</li>
+          </ul>
+          <button class="btn btn-primary" onclick="handlePurchase('Pro', 79)" aria-label="Pro-Lizenz für 79 Euro erwerben">Pro erwerben</button>
+        </div>
+
+      </div>
+
+      <div style="margin-top:4rem;">
+        <h2 style="font-size:1.4rem;margin-bottom:0.5rem;color:var(--text);">Erweiterungen und Zusatz-Plugins</h2>
+        <p>Ergänzen Sie PixlForge Pro um spezialisierte Werkzeuge. Jedes Plugin wird einmalig erworben und steht anschließend dauerhaft zur Verfügung.</p>
+        <div class="plugin-grid" role="list">
+          <div class="plugin-card" role="listitem"><div class="plugin-icon" aria-hidden="true">📐</div><div><p class="plugin-name">Isometrie-Paket</p><p class="plugin-price">€9,99</p></div></div>
+          <div class="plugin-card" role="listitem"><div class="plugin-icon" aria-hidden="true">🎮</div><div><p class="plugin-name">Pixel-Art-Modus</p><p class="plugin-price">€7,99</p></div></div>
+          <div class="plugin-card" role="listitem"><div class="plugin-icon" aria-hidden="true">📦</div><div><p class="plugin-name">3D-Mockup-Werkzeug</p><p class="plugin-price">€14,99</p></div></div>
+          <div class="plugin-card" role="listitem"><div class="plugin-icon" aria-hidden="true">🔤</div><div><p class="plugin-name">Schrift-Manager Pro</p><p class="plugin-price">€5,99</p></div></div>
+        </div>
+      </div>
+
+      <div style="margin-top:3.5rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:2rem;">
+        <h2 style="font-size:1.2rem;margin-bottom:1.25rem;color:var(--text);">Systemanforderungen</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:2rem;">
+          <div>
+            <h3 style="font-size:0.9rem;margin-bottom:0.75rem;color:var(--text);">Microsoft Windows</h3>
+            <ul style="list-style:none;font-size:0.85rem;color:var(--text2);display:flex;flex-direction:column;gap:0.4rem;">
+              <li>Windows 10 (64-Bit) oder neuer</li>
+              <li>Mindestens 4 GB RAM (8 GB empfohlen)</li>
+              <li>2 GB freier Festplatten­speicher</li>
+              <li>Grafikkarte mit OpenGL 3.3 oder neuer</li>
+            </ul>
+          </div>
+          <div>
+            <h3 style="font-size:0.9rem;margin-bottom:0.75rem;color:var(--text);">Apple macOS</h3>
+            <ul style="list-style:none;font-size:0.85rem;color:var(--text2);display:flex;flex-direction:column;gap:0.4rem;">
+              <li>macOS 12 Monterey oder neuer</li>
+              <li>Mindestens 4 GB RAM (8 GB empfohlen)</li>
+              <li>2 GB freier Festplatten­speicher</li>
+              <li>Apple Silicon und Intel-CPUs unterstützt</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="purchase-success" class="purchase-success" role="status" aria-live="polite">
+        <p>✓ Kauf erfolgreich. Ihre Lizenzdaten wurden an die angegebene E-Mail-Adresse versendet.</p>
+      </div>
+
+    </div>
+  </section>
+</div><!-- /shop -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  ABOUT — neue Reihenfolge:                                ║
+     ║  Geschichte → Grundsätze → Team → Marken →                ║
+     ║  Medien­nachweise → Barrierefreiheit                       ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-about" class="page" role="region" aria-label="Über uns">
+
+  <div class="pixel-bg">
+    <section style="padding:5rem 0 3rem;">
+      <div class="container">
+        <p class="label">Unser Unternehmen</p>
+        <h1>Über PixlForge</h1>
+        <p style="max-width:700px;margin-top:0.75rem;">Wir sind ein sechsköpfiges Team aus Wien, das eine Kreativ­software für Menschen baut, die täglich gestalten — Illustratorinnen, Architekten, Game-Artists und VFX-Künstlerinnen. Unser Ansatz ist bewusst klassisch: Software wird einmal gekauft, läuft auf dem eigenen Gerät, und niemand muss zustimmen, dass die eigenen Arbeitsdateien an einen Cloud-Dienst gesendet werden.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- 1. UNSERE GESCHICHTE -->
+  <section>
+    <div class="container">
+      <div class="about-intro" style="padding:0;">
+        <div>
+          <h2 style="font-size:1.6rem;margin-bottom:1rem;color:var(--text);">Unsere Geschichte</h2>
+          <p>PixlForge GmbH wurde 2024 von einem Team aus erfahrenen Illustratorinnen und Software­entwicklern in Wien gegründet. Den Anstoß gab die geteilte Frustration mit Abonnement-Software, die ihre Nutzer­innen finanziell und technisch immer stärker an einzelne Konzerne bindet.</p>
+          <p>Unser Ziel ist es, professionelle Kreativ­software zu fairen und transparenten Bedingungen anzubieten: einmaliger Kauf, dokumentierte Datei­formate, vollständige Offline-Funktionalität. Heute vertrauen über 12.000 Kreative im deutsch­sprachigen Raum auf PixlForge für ihre tägliche Arbeit.</p>
+        </div>
+
+        <!-- 2. UNSERE GRUNDSÄTZE -->
+        <div>
+          <h2 style="font-size:1.6rem;margin-bottom:1rem;color:var(--text);">Unsere Grundsätze</h2>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:0.85rem;">
+            <li style="display:flex;gap:0.85rem;font-size:0.95rem;color:var(--text2);"><span style="color:var(--accent2);font-family:var(--mono);font-size:0.85rem;flex-shrink:0;">01</span>Software muss vollständig offline funktionieren.</li>
+            <li style="display:flex;gap:0.85rem;font-size:0.95rem;color:var(--text2);"><span style="color:var(--accent2);font-family:var(--mono);font-size:0.85rem;flex-shrink:0;">02</span>Einmaliger Kauf statt Abonnement — die erworbene Version bleibt dauerhaft nutzbar.</li>
+            <li style="display:flex;gap:0.85rem;font-size:0.95rem;color:var(--text2);"><span style="color:var(--accent2);font-family:var(--mono);font-size:0.85rem;flex-shrink:0;">03</span>Telemetrie und Nutzungsdaten werden nur nach ausdrücklicher Zustimmung übertragen.</li>
+            <li style="display:flex;gap:0.85rem;font-size:0.95rem;color:var(--text2);"><span style="color:var(--accent2);font-family:var(--mono);font-size:0.85rem;flex-shrink:0;">04</span>Offene und dokumentierte Datei­formate — Ihre Arbeits­daten bleiben in Ihrem Besitz.</li>
+            <li style="display:flex;gap:0.85rem;font-size:0.95rem;color:var(--text2);"><span style="color:var(--accent2);font-family:var(--mono);font-size:0.85rem;flex-shrink:0;">05</span>Barrierefreiheit ist Pflicht­bestandteil, kein Zusatzfeature.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 3. UNSER TEAM -->
+  <section>
+    <div class="container">
+      <h2 style="margin-bottom:0.5rem;color:var(--text);">Unser Team</h2>
+      <p style="max-width:640px;">Sechs Personen aus Wien — mit Schwerpunkten in Illustration, Software­architektur, Design, KI-Forschung und Community-Arbeit.</p>
+      <div class="team-grid" role="list">
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-anna-hofer.png" alt="Porträtfoto von Anna Hofer, lächelnd vor unscharfem Bürohintergrund.">
+          <h3>Anna Hofer</h3>
+          <p>Geschäftsführerin und Mitgründerin</p>
+        </article>
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-markus-kern.png" alt="Porträtfoto von Markus Kern, lächelnd vor hellem Hintergrund.">
+          <h3>Markus Kern</h3>
+          <p>Technischer Geschäftsführer und Mitgründer</p>
+        </article>
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-lena-berger.png" alt="Porträtfoto von Lena Berger, lächelnd vor einer Betonwand.">
+          <h3>Lena Berger</h3>
+          <p>Leitende Designerin</p>
+        </article>
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-thomas-pichler.png" alt="Porträtfoto von Thomas Pichler, lächelnd im hellen Büro.">
+          <h3>Thomas Pichler</h3>
+          <p>Senior-Entwickler</p>
+        </article>
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-sara-reiter.png" alt="Porträtfoto von Sara Reiter, lächelnd in städtischer Umgebung.">
+          <h3>Sara Reiter</h3>
+          <p>Community-Management und Support</p>
+        </article>
+        <article class="team-card" role="listitem">
+          <img class="team-photo" src="assets/team-felix-wagner.png" alt="Porträtfoto von Felix Wagner, lächelnd vor unscharfem Hintergrund.">
+          <h3>Felix Wagner</h3>
+          <p>KI-Forschung und Entwicklung</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 4. UNSERE MARKEN -->
+  <section>
+    <div class="container">
+      <h2 style="margin-bottom:0.5rem;">Unsere Marken</h2>
+      <p style="margin-bottom:0.25rem;">PixlForge GmbH ist Inhaberin dreier eingetragener Markenformen, die jeweils beim Amt der Europäischen Union für geistiges Eigentum (EUIPO) für die nachfolgend aufgeführten Nizza-Klassen registriert sind.</p>
+      <p style="margin-bottom:2rem;font-family:var(--mono);font-size:0.8rem;color:var(--text3);">Eingetragen in den Nizza-Klassen 9, 41 und 42</p>
+
+      <div class="brand-showcase">
+
+        <article class="brand-card">
+          <div class="brand-visual" aria-label="Wortbildmarke: Schriftzug PixlForge mit Pixel-Amboss-Symbol">
+            <div style="display:flex;align-items:center;gap:0.7rem;">
+              <span style="width:38px;height:38px;background:var(--accent);border-radius:9px;display:flex;align-items:center;justify-content:center;">
+                <svg width="22" height="22" viewBox="0 0 20 20" fill="#fff" aria-hidden="true">
+                  <rect x="2" y="10" width="4" height="4"/><rect x="6" y="6" width="4" height="4"/>
+                  <rect x="10" y="2" width="4" height="4"/><rect x="14" y="6" width="4" height="4"/>
+                  <rect x="10" y="10" width="4" height="4"/><rect x="6" y="14" width="4" height="4"/>
+                </svg>
+              </span>
+              <span class="brand-wordmark">Pixl<em>Forge</em></span>
+            </div>
+          </div>
+          <div>
+            <p class="brand-meta">Markenform 1</p>
+            <h3>Wortbildmarke</h3>
+            <p>Kombination aus dem Schriftzug „PixlForge" in der Schriftart DM Mono und dem Pixel-Amboss-Symbol in der Markenfarbe Indigo-Violett. Der Amboss steht für handwerkliche Präzision; das Pixelraster verweist auf die digitale Bildgestaltung. Die Marke ist in den Nizza-Klassen 9, 41 und 42 eingetragen.</p>
+            <p style="margin-top:0.5rem;font-family:var(--mono);font-size:0.75rem;color:var(--text3);">EUIPO-Registriernummer EM-00123456</p>
+          </div>
+        </article>
+
+        <article class="brand-card">
+          <div class="brand-visual" aria-label="Bildmarke: das Pixel-Amboss-Symbol als eigenständiges Icon">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
+              <span class="brand-img-only">
+                <svg viewBox="0 0 20 20" fill="#fff" aria-hidden="true">
+                  <rect x="2" y="10" width="4" height="4"/><rect x="6" y="6" width="4" height="4"/>
+                  <rect x="10" y="2" width="4" height="4"/><rect x="14" y="6" width="4" height="4"/>
+                  <rect x="10" y="10" width="4" height="4"/><rect x="6" y="14" width="4" height="4"/>
+                </svg>
+              </span>
+              <span style="font-family:var(--mono);font-size:0.7rem;color:var(--text3);">Bildmarke ohne Textbestandteil</span>
+            </div>
+          </div>
+          <div>
+            <p class="brand-meta">Markenform 2</p>
+            <h3>Bildmarke</h3>
+            <p>Das Pixel-Amboss-Symbol als eigenständige Marke ohne begleitenden Schriftzug. Diese Bildmarke wird als Anwendungs-Icon der Software, als Favicon auf dieser Website sowie auf physischen Werbe­materialien eingesetzt. Sie ist ebenfalls in den Nizza-Klassen 9, 41 und 42 eingetragen.</p>
+            <p style="margin-top:0.5rem;font-family:var(--mono);font-size:0.75rem;color:var(--text3);">EUIPO-Registriernummer EM-00123457</p>
+          </div>
+        </article>
+
+        <article class="brand-card">
+          <div class="brand-visual" aria-label="Farbmarke Indigo-Violett, Farbwert HEX 7B5CF5">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:0.5rem;">
+              <span class="color-swatch" role="img" aria-label="Farbfeld der Markenfarbe HEX 7B5CF5"></span>
+              <span style="font-family:var(--mono);font-size:0.72rem;color:var(--text3);">HEX #7B5CF5 · Pantone 2103 C</span>
+            </div>
+          </div>
+          <div>
+            <p class="brand-meta">Markenform 3</p>
+            <h3>Farbmarke</h3>
+            <p>Indigo-Violett mit dem präzisen Farbwert HEX #7B5CF5 (entsprechend Pantone 2103 C) ist als Farbmarke für Software­produkte registriert. Diese Farbe wird konsistent in der Anwendungs­oberfläche, auf der Website und in sämtlichen Marketing­materialien verwendet. Die Markenfarbe wurde so gewählt, dass sie sich klar von den Markenfarben anderer Anbieter im Grafiksoftware-Segment unterscheidet.</p>
+            <p style="margin-top:0.5rem;font-family:var(--mono);font-size:0.75rem;color:var(--text3);">EUIPO-Registriernummer EM-00123458</p>
+          </div>
+        </article>
+
+      </div>
+
+      <h2 style="font-size:1.3rem;margin-top:3.5rem;margin-bottom:0.5rem;color:var(--text);">Nizza-Klassifikation der Marken</h2>
+      <div class="table-scroll">
+        <table class="nizza-table" aria-label="Übersicht der Nizza-Klassen, in denen unsere Marken eingetragen sind">
+          <thead><tr><th scope="col">Nizza-Klasse</th><th scope="col">Klassenbezeichnung</th><th scope="col">Anwendung bei PixlForge</th></tr></thead>
+          <tbody>
+            <tr><td>9</td> <td>Computer- und Wissenschafts­geräte sowie Software</td><td>Die Kern-Software PixlForge, herunterladbare Programm­dateien und kostenpflichtige Plugins</td></tr>
+            <tr><td>41</td><td>Erziehung, Aus- und Weiterbildung, Unterhaltung</td>     <td>Online-Tutorials, Video-Kurse und gedruckte Schulungs­unterlagen zur Software</td></tr>
+            <tr><td>42</td><td>Wissenschaftliche und technologische Dienst­leistungen</td><td>Lizenz­server-Infrastruktur, Software-Update-Bereitstellung und Plugin-Marketplace-Betrieb</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 5. MEDIENNACHWEISE -->
+  <section>
+    <div class="container">
+      <h2 style="margin-bottom:0.75rem;">Mediennachweise und Lizenzhinweise</h2>
+      <p style="margin-bottom:1.5rem;">Sämtliche auf dieser Website verwendeten Medien — Texte, Grafiken, Schriftarten, Bilder und Sounds — wurden entweder von PixlForge GmbH selbst erstellt oder unter offenen Lizenzen rechtmäßig eingebunden. Die nachfolgenden Tabellen dokumentieren jede einzelne Quelle und die zugehörigen Nutzungsrechte.</p>
+
+      <div class="info-box">
+        <p><strong>Grundsatz:</strong> Alle eigens erstellten Inhalte — Texte, Markenelemente, Layout und Programm­code dieser Website — sind urheberrechtlich geschütztes Eigentum der PixlForge GmbH. Alle Rechte vorbehalten. Inhalte Dritter sind nachfolgend einzeln aufgeführt.</p>
+      </div>
+
+      <h3 style="font-size:1.05rem;margin:2rem 0 0.75rem;color:var(--text);">Verwendete Schriftarten</h3>
+      <div class="table-scroll">
+        <table class="media-table" aria-label="Auflistung der verwendeten Schriftarten und deren Lizenzen">
+          <thead><tr><th scope="col">Schriftart</th><th scope="col">Urheber</th><th scope="col">Lizenz</th><th scope="col">Bezugsquelle</th></tr></thead>
+          <tbody>
+            <tr><td>DM Mono</td><td>Colophon Foundry für Google</td><td>SIL Open Font License Version 1.1</td><td>Google Fonts</td></tr>
+            <tr><td>Lora</td>   <td>Cyreal Type Foundry für Google</td><td>SIL Open Font License Version 1.1</td><td>Google Fonts</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="font-size:1.05rem;margin:2rem 0 0.75rem;color:var(--text);">Grafische Elemente und Icons</h3>
+      <div class="table-scroll">
+        <table class="media-table" aria-label="Auflistung der verwendeten Grafiken und Icons">
+          <thead><tr><th scope="col">Element</th><th scope="col">Urheber</th><th scope="col">Lizenz</th><th scope="col">Bearbeitung</th></tr></thead>
+          <tbody>
+            <tr><td>Navigations- und Funktions-Icons (SVG)</td><td>PixlForge GmbH — eigene Gestaltung</td><td>Alle Rechte vorbehalten</td><td>—</td></tr>
+            <tr><td>Pixel-Amboss-Symbol als Bildmarke</td>     <td>PixlForge GmbH — eigene Gestaltung</td><td>Eingetragene Bildmarke</td><td>—</td></tr>
+            <tr><td>Feather-Icons als Basis-Set für Outline-Icons</td><td>Cole Bemis</td><td>MIT License</td><td>Strichstärke und Farbe an unser Designsystem angepasst</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="font-size:1.05rem;margin:2rem 0 0.75rem;color:var(--text);">Bilder auf der Features- und Über-uns-Seite</h3>
+      <div class="info-box" style="margin-top:0;margin-bottom:1rem;">
+        <p><strong>Sämtliche Foto-Inhalte auf dieser Website</strong> — sowohl die auf der Features-Seite eingebundenen Software-Arbeitsplatz-Aufnahmen als auch die Team-Porträts dieser Seite — wurden mit dem KI-Bild­generator von OpenAI (ChatGPT/DALL·E) erzeugt. Die rechtlichen Grundlagen sind ausführlich auf der <a href="#" onclick="showPage('lizenz'); return false;">Lizenz-Seite</a> in § 10 dargestellt.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="media-table" aria-label="Auflistung der verwendeten KI-generierten Bilder">
+          <thead><tr><th scope="col">Bild</th><th scope="col">Beschreibung</th><th scope="col">Erstellung</th><th scope="col">Lizenz</th></tr></thead>
+          <tbody>
+            <tr><td>feature-vector-design.png</td>     <td>Vektor-Logo-Design auf Laptop</td>             <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>feature-3d-modeling.png</td>       <td>3D-Modellierung einer stilisierten Burg</td>   <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>feature-architecture.png</td>      <td>Architektur-Visualisierung eines Wohnhauses</td><td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>feature-vfx-compositing.png</td>   <td>VFX-Compositing-Arbeitsplatz mit Auto-Szene</td><td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-anna-hofer.png</td>           <td>Porträtfoto Anna Hofer</td>                    <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-markus-kern.png</td>          <td>Porträtfoto Markus Kern</td>                   <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-lena-berger.png</td>          <td>Porträtfoto Lena Berger</td>                   <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-thomas-pichler.png</td>       <td>Porträtfoto Thomas Pichler</td>                <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-sara-reiter.png</td>          <td>Porträtfoto Sara Reiter</td>                   <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+            <tr><td>team-felix-wagner.png</td>         <td>Porträtfoto Felix Wagner</td>                  <td>OpenAI Bildgenerator</td><td>Siehe Lizenz-Seite, § 10</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="font-size:1.05rem;margin:2rem 0 0.75rem;color:var(--text);">Texte</h3>
+      <div class="table-scroll">
+        <table class="media-table" aria-label="Auflistung der verwendeten Texte">
+          <thead><tr><th scope="col">Inhalt</th><th scope="col">Verfasser</th><th scope="col">Lizenz</th></tr></thead>
+          <tbody>
+            <tr><td>Alle Website-Texte (Produkt­beschreibungen, Rechtstexte, Funktions­beschreibungen)</td><td>PixlForge GmbH</td><td>Alle Rechte vorbehalten</td></tr>
+            <tr><td>Kundenstimmen auf der Startseite</td><td>PixlForge GmbH</td><td>Alle Rechte vorbehalten · personen­bezogene Daten zur Wahrung der Privatsphäre teil-anonymisiert</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="font-size:1.05rem;margin:2rem 0 0.75rem;color:var(--text);">Audio-Material</h3>
+      <div class="table-scroll">
+        <table class="media-table" aria-label="Auflistung der verwendeten Audio-Inhalte">
+          <thead><tr><th scope="col">Element</th><th scope="col">Urheber</th><th scope="col">Lizenz</th><th scope="col">Bezugsquelle</th></tr></thead>
+          <tbody>
+            <tr><td>Bedien­geräusche der Software (Klick-Sounds, Export-Bestätigung)</td>         <td>PixlForge GmbH</td><td>Alle Rechte vorbehalten</td><td>Eigene Aufnahme im Studio Wien</td></tr>
+            <tr><td>Hintergrund­musik für Produkt-Vorstellungs­videos</td><td>Kevin MacLeod</td><td>Creative Commons CC BY 4.0 · Namensnennung erforderlich</td><td>incompetech.com</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- 6. BARRIEREFREIHEITSERKLÄRUNG (Aufbau nach § 4 WZG) -->
+  <section>
+    <div class="container-narrow">
+      <h2 style="margin-bottom:1rem;color:var(--text);">Barrierefreiheits­erklärung</h2>
+
+      <div class="a11y-status" role="status">
+        <span class="a11y-dot" aria-hidden="true"></span>
+        <p>Diese Website ist <strong>teilweise konform</strong> mit den Web Content Accessibility Guidelines 2.2 auf Konformitäts­stufe AA. Sie ist wegen der unten aufgeführten Unvereinbarkeiten beziehungsweise wegen der genannten Ausnahmen nicht vollständig konform.</p>
+      </div>
+
+      <div class="legal-body" style="padding-bottom:0;">
+
+        <h2>Einleitung</h2>
+        <p>Die PixlForge GmbH ist bestrebt, ihre Website im Einklang mit dem österreichischen <strong>Web-Zugänglichkeits-Gesetz (WZG)</strong>, dem ab 28. Juni 2025 geltenden <strong>Barrierefreiheits­gesetz (BaFG)</strong> sowie der zugrunde liegenden Richtlinie (EU) 2016/2102 und Richtlinie (EU) 2019/882 (European Accessibility Act) barriere­frei zugänglich zu machen. Diese Erklärung zur Barrierefreiheit gilt für die Website pixlforge.at der PixlForge GmbH, Wien.</p>
+
+        <h2>Stand der Vereinbarkeit mit den Anforderungen</h2>
+        <p>Die Website ist mit der Konformitäts­stufe AA der Web Content Accessibility Guidelines (WCAG) Version 2.2 sowie mit dem geltenden europäischen Standard EN 301 549 V3.2.1 <strong>teilweise konform</strong> — sie ist wegen der unter „Nicht barrierefreie Inhalte" aufgeführten Unvereinbarkeiten beziehungsweise wegen der dort genannten Ausnahmen nicht vollständig konform.</p>
+        <p>Folgende Maßnahmen wurden zur Sicherstellung der Barriere­freiheit umgesetzt:</p>
+        <ul>
+          <li><strong>Wahrnehmbarkeit:</strong> Sämtliche grafische Elemente — Icons, Bildmarken, Logos und Team-Porträts — sind mit aussage­kräftigen Alternativ­texten versehen. Die Farbkontraste erfüllen das in WCAG 2.2 geforderte Mindest­verhältnis von 4,5:1 für regulären Text und 3:1 für grafische Bedien­elemente. Schrift­größen werden in relativen Einheiten (rem und clamp) angegeben und skalieren mit den Browser-Einstellungen der Nutzerin oder des Nutzers; die Website bleibt bis zu einer Vergrößerung von 200 % ohne Verlust von Inhalt oder Funktion nutzbar.</li>
+          <li><strong>Bedienbarkeit:</strong> Alle nicht ausdrücklich ausgenommenen interaktiven Elemente sind ohne Maus per Tastatur erreichbar. Ein Sprunglink am Seiten­anfang erlaubt das direkte Springen zum Hauptinhalt. Es werden keine Zeit­beschränkungen für Eingaben gesetzt. Der Tastatur-Fokus ist durch einen zwei Pixel starken Indigo-Rahmen jederzeit deutlich sichtbar.</li>
+          <li><strong>Verständlichkeit:</strong> Die Hauptsprache der Seite ist über das Attribut <code>lang="de"</code> definiert. Sämtliche Formular­felder sind mit eindeutigen, ausgeschriebenen Beschriftungen versehen (etwa „E-Mail-Adresse" statt nur „E-Mail"). Die Navigation ist auf allen Unter­seiten konsistent gestaltet. Fehler­meldungen werden klar und handlungs­orientiert formuliert.</li>
+          <li><strong>Robustheit:</strong> Die Website verwendet semantisches HTML5 mit korrekt eingesetzten ARIA-Landmarken (<code>role</code>-Attribute, <code>aria-label</code>, <code>aria-current</code>). Sie wurde mit den gängigen Screen­readern NVDA, JAWS und VoiceOver getestet.</li>
+        </ul>
+
+        <h2>Einhaltung der neuen Erfolgs­kriterien aus WCAG 2.2</h2>
+        <ul>
+          <li><strong>Kriterium 2.4.11 — Fokus nicht verdeckt (Minimum):</strong> Das fixierte Navigations­band am oberen Bildschirm­rand verdeckt zu keinem Zeitpunkt das gerade fokussierte Element.</li>
+          <li><strong>Kriterium 2.5.7 — Ziehbewegungen:</strong> Auf der Website werden keine reinen Drag-and-Drop-Interaktionen ohne Tastatur-Alternative eingesetzt.</li>
+          <li><strong>Kriterium 2.5.8 — Zielgröße (Minimum):</strong> Sämtliche anklickbaren Bedien­elemente weisen eine Mindest­zielgröße von 44 × 44 CSS-Pixel auf.</li>
+          <li><strong>Kriterium 3.2.6 — Konsistente Hilfe:</strong> Die Kontakt­informationen sind über die Hauptnavigation und den Seiten­fuß durchgängig erreichbar.</li>
+          <li><strong>Kriterium 3.3.7 — Redundante Eingabe:</strong> Bereits eingegebene Daten müssen im Kaufprozess nicht erneut eingegeben werden.</li>
+          <li><strong>Kriterium 3.3.8 — Zugängliche Authentifizierung (Minimum):</strong> Bei Anmeldung und Lizenz­aktivierung werden weder CAPTCHA-Aufgaben noch andere rein kognitive Tests eingesetzt.</li>
+        </ul>
+
+        <h2>Nicht barrierefreie Inhalte</h2>
+        <p>Die nachstehend aufgeführten Inhalte sind aus den folgenden Gründen nicht barriere­frei:</p>
+
+        <h3>a) Unvereinbarkeit mit den Barriere­freiheits­bestimmungen</h3>
+        <ul>
+          <li><strong>Interaktiver KI-Editor (innerhalb der Software-Vorschau auf der Features-Seite):</strong> Der knotenbasierte Editor ist derzeit nicht vollständig mit Screen­readern bedienbar. Damit ist das WCAG-Erfolgs­kriterium 4.1.2 (Name, Rolle, Wert) nicht vollständig erfüllt. An der Behebung wird gearbeitet; die Umsetzung ist bis <strong>Mitte 2027</strong> geplant.</li>
+          <li><strong>Vorschau­bilder der Software­oberfläche:</strong> Die auf der Features-Seite eingebundenen Abbildungen einzelner Software­oberflächen enthalten beschreibende Alternativ­texte, jedoch keine ausführlichen Text­alternativen zu sämtlichen Details, die im Bild zu sehen sind. Damit ist das WCAG-Erfolgs­kriterium 1.1.1 (Nicht-Text-Inhalt) nur teilweise erfüllt. Wir bieten ausführliche Text­alternativen auf Anfrage an. Eine systematische Nachbesserung erfolgt bis <strong>Sommer 2027</strong>.</li>
+        </ul>
+
+        <h3>b) Unverhältnismäßige Belastung</h3>
+        <ul>
+          <li><strong>Eingebettete Produkt-Vorstellungs­videos:</strong> Für ältere Vorstellungs­videos liegen derzeit noch keine Audio­deskriptionen vor. Damit ist das WCAG-Erfolgs­kriterium 1.2.5 (Audio­deskription) nicht erfüllt. Eine Nachvertonung sämtlicher Bestands­videos stellt im Sinne der Barriere­freiheits­bestimmungen eine unverhältnis­mäßige Belastung dar. Für Videos, die ab Sommer 2026 neu erstellt werden, werden Audio­deskriptionen mit­produziert.</li>
+        </ul>
+
+        <h3>c) Die Inhalte fallen nicht in den Anwendungs­bereich der anwendbaren Rechts­vorschriften</h3>
+        <ul>
+          <li><strong>Ältere PDF-Dokumente (technische Datenblätter, ältere Release Notes):</strong> Vor dem 23. September 2018 veröffentlichte PDF-Dokumente sind gemäß § 2 Abs. 3 WZG vom Anwendungs­bereich ausgenommen. Sie sind nicht durchgängig nach dem Standard PDF/UA aufbereitet. Für neue Dokumente bemühen wir uns um Veröffentlichung barriere­frei nach WCAG 2.2 und PDF/UA. Eine vollständige Neuausgabe älterer Dokumente erfolgt schrittweise bis <strong>Ende 2027</strong>.</li>
+          <li><strong>Inhalte Dritter</strong>, die nicht im Einfluss­bereich der PixlForge GmbH liegen — etwa eingebettete Karten­dienste oder externe Tutorial-Videos — sind vom Geltungs­bereich ausgenommen. Für diese Inhalte Dritter kann bezüglich der Vereinbarkeit mit Barriere­freiheits­bestimmungen keine Aussage getroffen werden.</li>
+        </ul>
+
+        <h2>Erstellung dieser Erklärung zur Barrierefreiheit</h2>
+        <p>Diese Erklärung wurde am <strong>15. Mai 2026</strong> erstellt. Die Bewertung der Barriere­freiheit erfolgte durch eine <strong>Selbst­bewertung</strong> der PixlForge GmbH unter Verwendung der Werkzeuge WAVE, axe DevTools und Lighthouse, ergänzt durch manuelle Tests mit den Screen­readern NVDA und VoiceOver. Die Erklärung wurde zuletzt im <strong>Mai 2026</strong> überprüft; die nächste planmäßige Überprüfung ist für <strong>Mai 2027</strong> vorgesehen.</p>
+
+        <h2>Feedback und Kontakt­angaben</h2>
+        <p>Sollten Sie auf Barrieren stoßen, die Sie an der vollen Nutzung der Website hindern, oder eine zugängliche Version eines Inhalts benötigen, kontaktieren Sie uns bitte unter <a href="mailto:a11y@pixlforge.at">a11y@pixlforge.at</a>. Eine Antwort erfolgt gemäß § 4 Abs. 3 WZG innerhalb von zwei Monaten nach Eingang Ihrer Meldung.</p>
+
+        <h2>Durchsetzungs­verfahren</h2>
+        <p>Sollte die Antwort auf Ihre Meldung einer Barriere nicht zufrieden­stellend gewesen sein oder sollten Sie innerhalb von sechs Wochen keine Antwort erhalten haben, können Sie eine Beschwerde bei der österreichischen Beschwerde- und Durchsetzungs­stelle für die digitale Barriere­freiheit nach dem WZG einreichen:</p>
+        <p><strong>Österreichische Forschungs­förderungs­gesellschaft mbH (FFG)</strong><br>
+        Sensengasse 1, 1090 Wien<br>
+        Webadresse: <a href="https://www.ffg.at" target="_blank" rel="noopener noreferrer">www.ffg.at</a><br>
+        Die Beschwerde ist elektronisch über das Kontakt­formular der FFG einzureichen.</p>
+      </div>
+    </div>
+  </section>
+
+</div><!-- /about -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  LIZENZ                                                   ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-lizenz" class="page" role="region" aria-label="Lizenz">
+  <div class="container-narrow">
+    <div class="legal-header">
+      <h1>Lizenzvereinbarung</h1>
+      <p>Endnutzer-Lizenz­vereinbarung (End User License Agreement) · Fassung 2.1 · Stand Mai 2026</p>
+    </div>
+    <div class="legal-body">
+      <div class="info-box"><p>Durch den Erwerb einer Lizenz und durch die Installation der Software PixlForge erklären Sie sich mit den nachfolgenden Lizenz­bedingungen einverstanden. Bitte lesen Sie diese Vereinbarung vollständig, bevor Sie die Software installieren oder verwenden.</p></div>
+
+      <h2>§ 1 Vertragsparteien und Vertragsgegenstand</h2>
+      <p>Diese Lizenz­vereinbarung wird geschlossen zwischen der <strong>PixlForge GmbH</strong>, Mariahilfer Straße 100/15, 1060 Wien, Österreich (im Folgenden „Lizenzgeberin") und der natürlichen oder juristischen Person, die eine Lizenz erwirbt (im Folgenden „Lizenz­nehmer"). Vertrags­gegenstand ist die Bereitstellung der Software „PixlForge" einschließlich ihrer Dokumentation und der nachfolgend definierten Nutzungs­rechte. Sämtliche Urheber- und Verwertungs­rechte an der Software verbleiben gemäß österreichischem Urheber­rechts­gesetz (UrhG) bei der Lizenzgeberin, soweit in dieser Vereinbarung nicht ausdrücklich abweichend geregelt.</p>
+
+      <h2>§ 2 Lizenzumfang der Starter-Lizenz (€ 49 einmalig)</h2>
+      <p>Mit dem Erwerb der Starter-Lizenz erwirbt der Lizenz­nehmer ein zeitlich unbeschränktes, nicht-übertragbares und nicht-ausschließliches Nutzungs­recht an der Software mit folgendem Umfang:</p>
+      <ul>
+        <li>Installation und Nutzung auf <strong>einem einzigen, persönlich genutzten Computer</strong> des Lizenz­nehmers</li>
+        <li>Nutzung ausschließlich zu <strong>privaten und nicht-kommerziellen Zwecken</strong></li>
+        <li>Erstellung von Werken zum persönlichen Gebrauch oder zur unentgeltlichen Weitergabe</li>
+        <li>Bezug kostenloser Software-Aktualisierungen während eines Zeitraums von <strong>zwölf Monaten</strong> ab dem Kaufdatum</li>
+      </ul>
+      <p>Mit der Starter-Lizenz nicht erworben werden: das Recht zur kommerziellen Nutzung; das Recht zur Weitergabe oder Unter­lizenzierung; das Recht zur gleichzeitigen Nutzung auf mehreren Geräten; der Zugriff auf den KI-Assistenten und die Plugin-Schnitt­stelle.</p>
+
+      <h2>§ 3 Lizenzumfang der Pro-Lizenz (€ 79 einmalig)</h2>
+      <p>Mit dem Erwerb der Pro-Lizenz erwirbt der Lizenz­nehmer ein zeitlich unbeschränktes, nicht-übertragbares und nicht-ausschließliches Nutzungs­recht an der Software mit folgendem Umfang:</p>
+      <ul>
+        <li>Installation und Nutzung auf bis zu <strong>zwei (2) Computern</strong>, die ausschließlich vom Lizenz­nehmer persönlich genutzt werden (typischer Anwendungsfall: stationärer Arbeitsplatz und mobiler Laptop)</li>
+        <li>Nutzung sowohl zu <strong>privaten als auch zu uneingeschränkt kommerziellen Zwecken</strong></li>
+        <li>Verkauf, entgeltliche Lizenzierung und Veröffentlichung sämtlicher mit der Software erstellten Werke</li>
+        <li>Zugang zum vollständigen KI-Assistenten und zur <strong>Plugin-Schnittstelle</strong> einschließlich der Möglichkeit zum Erwerb kostenpflichtiger Erweiterungen</li>
+        <li>Bezug kostenloser Software-Aktualisierungen während eines Zeitraums von <strong>vierundzwanzig Monaten</strong> ab dem Kaufdatum</li>
+        <li>Bevorzugte Bearbeitung von Support-Anfragen per E-Mail</li>
+      </ul>
+
+      <h2>§ 4 Eigentum an den vom Lizenz­nehmer erstellten Werken</h2>
+      <p>Grafiken, Illustrationen, 3D-Modelle, Compositings und sonstige Werke, die der Lizenz­nehmer unter Verwendung von PixlForge erstellt, sind und bleiben <strong>vollständig und ausschließlich Eigentum des Lizenz­nehmers</strong>. Die Lizenz­geberin macht an diesen vom Lizenz­nehmer erzeugten Werken keinerlei eigene Rechte geltend. Die kommerzielle Verwertung dieser Werke ist allerdings nur unter der Pro-Lizenz gestattet (siehe § 3); unter der Starter-Lizenz ist sie ausgeschlossen (siehe § 2).</p>
+
+      <h3>4.1 Werke unter Einsatz des KI-Assistenten</h3>
+      <p>Der in der Pro-Lizenz enthaltene KI-Assistent kann bestimmte Arbeits­schritte automatisieren — etwa Pfade vervollständigen, Materialien vorschlagen oder Roto­skopierungen vorbereiten. Hinsichtlich der so erzeugten Inhalte gilt:</p>
+      <ul>
+        <li><strong>Keine eigenen Rechte der Lizenz­geberin:</strong> Die Lizenz­geberin beansprucht weder Urheber­rechte noch sonstige Verwertungs­rechte an Pfaden, Materialien, Masken oder anderen Inhalten, die der KI-Assistent für den Lizenz­nehmer erzeugt.</li>
+        <li><strong>Eingeschränkter Urheberrechts­schutz rein KI-erzeugter Werke:</strong> Nach gegenwärtiger Auslegung des österreichischen UrhG und vergleichbarer Rechts­ordnungen in der EU genießen Werke, die ausschließlich durch eine Maschine ohne erkennbare eigentümliche geistige schöpferische Leistung eines Menschen entstehen, <strong>keinen Urheber­rechts­schutz</strong>. Werden Werke nur in Teilen durch die KI unterstützt und liegt in den übrigen Schritten eine wesentliche menschliche Gestaltungs­leistung des Lizenz­nehmers vor, kann das Gesamt­werk dennoch urheber­rechtlich schutz­fähig sein. Die rechtliche Beurteilung im Einzelfall obliegt dem Lizenz­nehmer.</li>
+        <li><strong>Verantwortung des Lizenz­nehmers:</strong> Der Lizenz­nehmer ist allein dafür verantwortlich, ob das von ihm geschaffene Endwerk urheber­rechtlich schutz­fähig ist und ob es Rechte Dritter — insbesondere Urheber-, Marken-, Persönlichkeits- oder Wettbewerbs­rechte — verletzt. Die Lizenz­geberin übernimmt keinerlei Gewähr dafür, dass durch den KI-Assistenten erzeugte Inhalte frei von Rechten Dritter sind.</li>
+        <li><strong>Empfehlung zur Dokumentation:</strong> Dem Lizenz­nehmer wird empfohlen, bei späterem Bedarf des Schutz­nachweises eine Dokumentation seiner eigenen kreativen Gestaltungs­schritte (Skizzen, Zwischen­stände, Bearbeitungs­entscheidungen) aufzubewahren.</li>
+      </ul>
+
+      <h2>§ 5 Rechte, die ausschließlich bei der Lizenz­geberin verbleiben</h2>
+      <p>Unabhängig vom Umfang der erworbenen Lizenz verbleiben die folgenden Rechte ausschließlich bei der PixlForge GmbH:</p>
+      <ul>
+        <li>Sämtliche Urheber- und Eigentums­rechte an der Software selbst, einschließlich ihres Quellcodes, ihrer Algorithmen, ihrer internen Architektur und ihrer Datei­formate</li>
+        <li>Das ausschließliche Recht zur Vervielfältigung, Bearbeitung und Verbreitung der Software</li>
+        <li>Das ausschließliche Recht zur Vergabe von Lizenzen an Dritte und zur Festlegung der Lizenz­bedingungen</li>
+        <li>Sämtliche eingetragenen Marken­rechte an der Wortbildmarke „PixlForge", der Bildmarke „Pixel-Amboss" und der Farbmarke Indigo-Violett (HEX #7B5CF5)</li>
+        <li>Die ausschließlichen Rechte an der mitgelieferten Asset-Bibliothek — diese darf weder eigenständig extrahiert noch außerhalb der Software weiterverkauft oder weiterlizenziert werden</li>
+      </ul>
+
+      <h2>§ 6 Untersagte Handlungen</h2>
+      <p>Dem Lizenz­nehmer ist es ausdrücklich untersagt:</p>
+      <ul>
+        <li>die Software zu dekompilieren, zu disassemblieren oder auf andere Weise zurück­zuentwickeln (Reverse Engineering), soweit dies nicht durch zwingendes anwendbares Recht ausdrücklich gestattet ist</li>
+        <li>technische Schutz­mechanismen, insbesondere den Kopier­schutz und die Lizenz-Aktivierungs­routine, zu umgehen oder zu deaktivieren</li>
+        <li>die Software ohne vorherige schriftliche Zustimmung der Lizenz­geberin weiterzuverkaufen, zu vermieten oder zu verleasen</li>
+        <li>die Software zur Erstellung von Inhalten zu verwenden, die gegen geltendes Recht, insbesondere gegen das Urheberrecht, das Persönlichkeits­recht oder das Strafrecht verstoßen</li>
+        <li>die Starter-Lizenz für kommerzielle Projekte zu verwenden — hierfür ist die Pro-Lizenz erforderlich</li>
+      </ul>
+
+      <h2>§ 7 Gewährleistung und Haftung</h2>
+      <div class="warning-box"><p><strong>Wichtiger Hinweis zum Konsumenten­schutz:</strong> Die in diesem Paragrafen vorgesehenen Beschränkungen gelten nur in dem Umfang, in dem sie nach österreichischem und EU-Recht zulässig sind. Gegenüber Verbraucherinnen und Verbrauchern im Sinne des Konsumenten­schutz­gesetzes (KSchG) gelten die zwingenden gesetzlichen Schutz­vorschriften in jedem Fall vorrangig; diesen wider­sprechende Klauseln dieser Vereinbarung sind insoweit unwirksam.</p></div>
+
+      <h3>7.1 Gewährleistung gegenüber Verbraucherinnen und Verbrauchern (B2C)</h3>
+      <p>Handelt der Lizenz­nehmer als Verbraucher im Sinne des § 1 KSchG, gelten die folgenden besonderen Regelungen:</p>
+      <ul>
+        <li><strong>Gesetzliche Gewährleistung:</strong> Für die Software gelten die Bestimmungen des österreichischen Verbraucher­gewährleistungs­gesetzes (VGG) sowie des Allgemeinen Bürgerlichen Gesetzbuchs (ABGB) in ihrer jeweils geltenden Fassung. Die gesetzliche Gewährleistungs­frist beträgt nach § 10 VGG zwei Jahre ab Bereitstellung der Software. Diese Gewährleistungs­ansprüche werden durch diese Vereinbarung in keiner Weise eingeschränkt, ausgeschlossen oder verkürzt.</li>
+        <li><strong>Haftung für vertragliche Hauptpflichten:</strong> Für die Verletzung wesentlicher vertraglicher Pflichten (sogenannter Kardinal­pflichten — etwa die Bereitstellung einer funktions­fähigen Software gemäß § 2 oder § 3 dieser Vereinbarung) haftet die Lizenz­geberin gegenüber Verbraucherinnen und Verbrauchern <strong>unbeschränkt</strong>, auch bei leichter Fahrlässigkeit.</li>
+        <li><strong>Haftung für Personenschäden:</strong> Für Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit haftet die Lizenz­geberin gegenüber Verbraucherinnen und Verbrauchern <strong>uneingeschränkt</strong>. Diese Haftung kann weder ausgeschlossen noch betragsmäßig begrenzt werden.</li>
+        <li><strong>Produkt­haftung:</strong> Die Haftung nach dem Produkt­haftungs­gesetz (PHG) bleibt unberührt und kann nicht ausgeschlossen werden.</li>
+      </ul>
+
+      <h3>7.2 Gewährleistung und Haftung gegenüber Unternehmern (B2B)</h3>
+      <p>Handelt der Lizenz­nehmer nicht als Verbraucher, sondern als Unternehmer im Sinne des Unternehmens­gesetzbuchs (UGB), gelten die folgenden Regelungen:</p>
+      <ul>
+        <li>Die Software wird im technischen Zustand „wie besehen" überlassen. Die Lizenz­geberin übernimmt keine Gewährleistung dafür, dass die Software unter sämtlichen denkbaren Hardware- und Betriebs­system­konstellationen fehlerfrei funktioniert oder für einen vom Lizenz­nehmer beabsichtigten konkreten Anwendungs­zweck geeignet ist.</li>
+        <li>Die Haftung der Lizenz­geberin für Vermögens­schäden, die durch leichte Fahrlässigkeit verursacht werden, ist gegenüber Unternehmern der Höhe nach auf den vom Lizenz­nehmer für die Lizenz tatsächlich gezahlten Kaufpreis begrenzt, höchstens jedoch auf einen Betrag von <strong>fünfhundert Euro (€ 500,–)</strong> pro Schadens­fall.</li>
+        <li>Diese betragsmäßige Beschränkung gilt <strong>nicht</strong> bei Vorsatz oder grober Fahrlässigkeit der Lizenz­geberin, nicht bei Personen­schäden und nicht bei Ansprüchen nach dem Produkt­haftungs­gesetz.</li>
+      </ul>
+
+      <h3>7.3 Datensicherung</h3>
+      <p>Für den Verlust von Arbeits­dateien des Lizenz­nehmers haftet die Lizenz­geberin nur bei nachgewiesenem Verschulden ihrerseits. Sofern der Lizenz­nehmer Unternehmer ist, ist die Haftung in diesem Fall auf den typischer­weise anfallenden Aufwand zur Wieder­herstellung der Daten aus einer ordnungs­gemäß angelegten Datensicherung begrenzt; gegenüber Verbrauchern gelten die Regelungen aus Abschnitt 7.1. Dem Lizenz­nehmer wird in jedem Fall dringend empfohlen, in regelmäßigen Abständen Sicherungs­kopien seiner Arbeits­dateien anzufertigen.</p>
+
+      <h2>§ 8 Vertragsdauer und Kündigung</h2>
+      <p>Die Lizenz gilt zeitlich unbefristet. Die Lizenz­geberin ist berechtigt, die Lizenz mit sofortiger Wirkung außerordentlich zu kündigen, wenn der Lizenz­nehmer in schwer­wiegender Weise gegen wesentliche Bestimmungen dieser Vereinbarung verstößt — insbesondere bei nachgewiesenen Verstößen gegen § 6. Im Falle einer berechtigten Kündigung ist der Lizenz­nehmer verpflichtet, sämtliche Kopien der Software unverzüglich von all seinen Geräten zu entfernen.</p>
+
+      <h2>§ 9 Anwendbares Recht und Gerichtsstand</h2>
+      <p>Für diese Vereinbarung gilt ausschließlich österreichisches Recht unter Ausschluss des UN-Übereinkommens über Verträge über den internationalen Waren­kauf (CISG). Als ausschließlicher Gerichts­stand wird Wien vereinbart. Für Lizenz­nehmer, die als Verbraucher im Sinne des Konsumenten­schutz­gesetzes (KSchG) handeln, gelten die zwingenden Verbraucher­schutz­vorschriften ihres jeweiligen Aufenthalts­landes vorrangig.</p>
+
+      <h2>§ 10 Lizenz der KI-generierten Foto-Inhalte auf dieser Website</h2>
+      <p>Sämtliche Foto-Inhalte dieser Website — insbesondere die auf der Features-Seite eingebundenen Software-Arbeitsplatz-Aufnahmen sowie die Team-Porträts auf der Seite „Über uns" — wurden mit dem KI-Bild­generator von OpenAI (ChatGPT, DALL·E) erzeugt. Es handelt sich nicht um Fotografien realer Personen oder Szenen. Die rechtliche Behandlung dieser Bilder richtet sich nach den <a href="https://openai.com/policies/row-terms-of-use/" target="_blank" rel="noopener noreferrer">Nutzungs­bedingungen von OpenAI</a> in der jeweils geltenden Fassung, die OpenAI sämtliche Rechte, Titel und Anteile an der erzeugten Bild­ausgabe an die nutzende Person übertragen, soweit anwendbares Recht dies zulässt. Daraus ergibt sich:</p>
+      <ul>
+        <li><strong>Eigentum:</strong> PixlForge GmbH ist Eigentümerin der erzeugten Bild­ausgaben und zur kommerziellen Verwendung berechtigt — einschließlich Webauftritt, Werbe­materialien und Produkt­dokumentation.</li>
+        <li><strong>Verantwortlichkeit:</strong> Die Verantwortung für die rechts­konforme Verwendung trägt PixlForge GmbH. Es werden ausschließlich fiktive Personen und fiktive Software­oberflächen abgebildet; Rechte Dritter werden nicht berührt.</li>
+        <li><strong>Transparenz:</strong> Sämtliche KI-generierten Bilder sind auf der Seite „Über uns" mit Dateiname, Inhalts­beschreibung und Erstellungs­quelle einzeln dokumentiert. Sie werden nicht als menschen­geschaffene Werke ausgegeben — dies entspricht den OpenAI-Nutzungs­bedingungen.</li>
+        <li><strong>Eingeschränkter Urheber­rechts­schutz:</strong> Rein KI-erzeugte Bild­werke genießen in Österreich, der EU und vergleichbaren Jurisdiktionen nach gegenwärtiger Rechts­auffassung keinen klassischen Urheber­rechts­schutz, da die Voraussetzung der menschlichen schöpferischen Leistung fehlt. Die Verwertung stützt sich daher allein auf die durch OpenAI übertragenen Nutzungs­rechte.</li>
+      </ul>
+      <p>Die jeweils aktuelle Fassung der OpenAI-Nutzungs­bedingungen ist abrufbar unter: <a href="https://openai.com/policies/row-terms-of-use/" target="_blank" rel="noopener noreferrer">openai.com/policies/row-terms-of-use</a></p>
+
+      <h2>§ 11 Drittanbieter-Software und Copyleft-Lizenzen</h2>
+      <p>PixlForge selbst sowie sämtliche von der Lizenz­geberin angebotenen offiziellen Plugins enthalten <strong>keine</strong> Komponenten unter Copyleft-Lizenzen (etwa GNU GPL, AGPL oder Creative Commons BY-SA). Eingebundene Drittanbieter-Bibliotheken stehen ausschließlich unter permissiven Lizenzen (MIT, BSD, Apache 2.0, SIL OFL). Die vollständige Liste der eingebundenen Komponenten und ihrer Lizenzen ist über das Menü „Hilfe → Open-Source-Lizenzen" innerhalb der Software einsehbar.</p>
+      <p><strong>Hinweis für Plugin-Entwicklerinnen und -Entwickler:</strong> Wer eigene Plugins über die Plugin-Schnitt­stelle erstellt und im PixlForge-Marketplace veröffentlichen möchte, ist verpflichtet, sicher­zustellen, dass das Plugin keine Bestandteile unter Copyleft-Lizenzen enthält. Andernfalls könnten Teile der PixlForge-Code­basis oder weiterer Plugins ebenfalls unter dieser Lizenz veröffentlicht werden müssen (sogenannter Copyleft-Effekt). Detaillierte Vorgaben finden sich in den Entwickler-Richtlinien der Plugin-Schnitt­stelle.</p>
+
+      <h2>§ 12 Kontakt für Lizenz-Anfragen</h2>
+      <p>Bei Fragen zu Lizenz­umfang, Übertragbarkeit oder besonderen Nutzungs­szenarien wenden Sie sich bitte an: <a href="mailto:lizenz@pixlforge.at">lizenz@pixlforge.at</a> oder per Post an PixlForge GmbH, Mariahilfer Straße 100/15, 1060 Wien.</p>
+    </div>
+  </div>
+</div><!-- /lizenz -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  DATENSCHUTZ                                              ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-datenschutz" class="page" role="region" aria-label="Datenschutz­erklärung">
+  <div class="container-narrow">
+    <div class="legal-header">
+      <h1>Datenschutz­erklärung</h1>
+      <p>Nach den Vorgaben der Datenschutz-Grund­verordnung (Verordnung (EU) 2016/679, „DSGVO"), dem österreichischen Daten­schutzgesetz (DSG) und § 165 Telekommunikations­gesetz 2021 (TKG 2021) · Stand Mai 2026</p>
+    </div>
+    <div class="legal-body">
+      <h2>§ 1 Verantwortliche Stelle</h2>
+      <p>Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne von Artikel 4 Nummer 7 DSGVO ist die <strong>PixlForge GmbH</strong> mit Sitz in Mariahilfer Straße 100/15, 1060 Wien, Österreich. Für Anliegen rund um den Datenschutz erreichen Sie uns per E-Mail unter <a href="mailto:datenschutz@pixlforge.at">datenschutz@pixlforge.at</a>, telefonisch unter +43 1 234 56 78. Die Umsatz­steuer-Identifikations­nummer lautet ATU99887766.</p>
+
+      <h2>§ 2 Datenschutz­beauftragter</h2>
+      <p>Da die PixlForge GmbH weniger als 250 Mitarbeitende beschäftigt und keine umfangreiche Verarbeitung besonderer Kategorien personen­bezogener Daten im Sinne von Artikel 9 DSGVO durchführt, ist die Benennung eines Datenschutz­beauftragten nach Artikel 37 DSGVO derzeit nicht verpflichtend. Datenschutz-Anfragen werden direkt durch die Geschäfts­führung über die oben genannte E-Mail-Adresse bearbeitet.</p>
+
+      <h2>§ 3 Welche Daten wir verarbeiten und zu welchem Zweck</h2>
+
+      <h3>3.1 Automatisch erfasste Server-Protokolldaten</h3>
+      <p>Bei jedem Aufruf der Website werden durch den Webserver automatisch die folgenden technischen Daten erfasst und in einer Protokoll­datei abgelegt. Diese Verarbeitung ist für den sicheren Betrieb der Website unerlässlich.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Daten­kategorie</th><th scope="col">Verarbeitungs­zweck</th><th scope="col">Rechtsgrundlage</th><th scope="col">Speicherdauer</th></tr></thead>
+          <tbody>
+            <tr><td>IP-Adresse in anonymisierter Form</td><td>Abwehr von Angriffen, Analyse technischer Fehler</td><td>Artikel 6 Absatz 1 Buchstabe f DSGVO</td><td>7 Tage</td></tr>
+            <tr><td>Browser-Typ und Betriebssystem</td><td>Technische Optimierung der Website</td>  <td>Artikel 6 Absatz 1 Buchstabe f DSGVO</td><td>7 Tage</td></tr>
+            <tr><td>Verweis-URL (Referrer)</td>             <td>Analyse technischer Fehler</td>             <td>Artikel 6 Absatz 1 Buchstabe f DSGVO</td><td>7 Tage</td></tr>
+            <tr><td>Datum und Uhrzeit des Aufrufs</td>      <td>Sicherheits­überwachung</td>                <td>Artikel 6 Absatz 1 Buchstabe f DSGVO</td><td>7 Tage</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3>3.2 Daten im Rahmen des Kaufprozesses</h3>
+      <p>Beim Kauf einer Lizenz erheben wir Vor- und Nachname sowie die E-Mail-Adresse des Lizenz­nehmers. Diese Daten dienen ausschließlich der Erstellung der personen­gebundenen Lizenz, der Versendung der Lizenz­schlüssel und der Erfüllung gesetzlicher Aufbewahrungs­pflichten. Rechts­grundlage ist <strong>Artikel 6 Absatz 1 Buchstabe b DSGVO</strong> (Vertrags­erfüllung) für die Lizenz­erstellung sowie <strong>Artikel 6 Absatz 1 Buchstabe c DSGVO</strong> (rechtliche Verpflichtung) für die handels- und steuer­rechtlich vorgeschriebene Speicherung der Rechnungs­daten über sieben Jahre gemäß § 132 BAO und § 212 UGB. Die Verarbeitung der eigentlichen Zahlungs­daten erfolgt ausschließlich durch unsere Zahlungs­dienstleister Stripe und PayPal, deren eigene Datenschutz­erklärungen jeweils zur Anwendung kommen.</p>
+
+      <h3>3.3 Daten aus dem Kontakt­formular</h3>
+      <p>Wenn Sie das Kontakt­formular auf der Kontakt-Seite nutzen, verarbeiten wir Ihren Vor- und Nachnamen, Ihre E-Mail-Adresse, den gewählten Betreff sowie den Inhalt Ihrer Nachricht. Welche Rechts­grundlage gilt, hängt vom Inhalt Ihrer Anfrage ab:</p>
+      <ul>
+        <li><strong>Vorvertragliche Anfragen oder Anfragen zur Vertrags­erfüllung</strong> (etwa Fragen zu einer konkreten Lizenz vor dem Kauf oder Support-Anfragen nach dem Kauf) verarbeiten wir auf Grundlage von <strong>Artikel 6 Absatz 1 Buchstabe b DSGVO</strong> (Durchführung vor­vertraglicher Maßnahmen beziehungsweise Vertrags­erfüllung).</li>
+        <li><strong>Allgemeine Anfragen ohne Vertragsbezug</strong> (etwa allgemeine Informations- oder Presse-Anfragen) verarbeiten wir auf Grundlage von <strong>Artikel 6 Absatz 1 Buchstabe f DSGVO</strong> (berechtigtes Interesse an der ordnungs­gemäßen Beantwortung von Anfragen, die an uns gerichtet werden).</li>
+      </ul>
+      <p>Wir speichern Ihre Anfrage bis zu deren abschließender Bearbeitung, höchstens jedoch drei Jahre.</p>
+
+      <h3>3.4 Cookies und vergleichbare Technologien</h3>
+      <p>Auf dieser Website werden die folgenden Cookies und vergleichbaren Speicher­techniken eingesetzt:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Bezeichnung</th><th scope="col">Kategorie</th><th scope="col">Funktion</th><th scope="col">Lebensdauer</th></tr></thead>
+          <tbody>
+            <tr><td>cookie_consent</td>      <td>Notwendig</td>          <td>Speichert Ihre Auswahl im Cookie-Banner</td><td>12 Monate</td></tr>
+            <tr><td>session_id</td>          <td>Notwendig</td>          <td>Verwaltung der aktuellen Session beim Kaufprozess</td><td>Bis Browser-Schließen</td></tr>
+            <tr><td>_pf_analytics</td>       <td>Analyse, Opt-in</td>    <td>Anonymisierte Nutzungs­statistik (Matomo)</td><td>13 Monate</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>Rechtsgrundlage für notwendige Cookies:</strong> Notwendige Cookies werden ohne weitere Einwilligung gesetzt, da sie für den Betrieb der Website technisch unerlässlich sind. Ihre Speicherung ist nach <strong>§ 165 Absatz 3 TKG 2021</strong> einwilligungs­frei zulässig, weil sie ausschließlich der Durchführung der Übertragung einer Nachricht oder der Bereitstellung eines vom Nutzer ausdrücklich gewünschten Dienstes dienen.</p>
+      <p><strong>Rechtsgrundlage für Analyse-Cookies:</strong> Nicht-notwendige Cookies — insbesondere das Analyse-Cookie _pf_analytics — werden ausschließlich mit Ihrer aus­drücklichen, vorherigen Einwilligung gesetzt. Rechts­grundlage ist <strong>Artikel 6 Absatz 1 Buchstabe a DSGVO (Einwilligung) in Verbindung mit § 165 Absatz 3 TKG 2021</strong> (österreichische Umsetzung der ePrivacy-Richtlinie). Sie können Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, indem Sie über das Cookie-Banner Ihre Auswahl ändern oder die entsprechenden Cookies in Ihrem Browser löschen.</p>
+
+      <h3>3.5 Webanalyse mittels Matomo</h3>
+      <p>Zur Verbesserung der Website setzen wir das Open-Source-Analyse-Werkzeug Matomo ein. Matomo läuft auf einem von uns selbst betriebenen Server innerhalb der Europäischen Union; es findet kein Daten­transfer in Dritt­staaten statt. IP-Adressen werden vor der Speicherung vollständig anonymisiert. Eine Personen­bezogenheit der Statistik­daten ist daher technisch ausgeschlossen. Die Analyse erfolgt ausschließlich nach Ihrer aus­drücklichen Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a DSGVO in Verbindung mit § 165 Absatz 3 TKG 2021.</p>
+
+      <h4 style="font-family:var(--mono);font-size:0.9rem;color:var(--text);margin:1.25rem 0 0.5rem;">So widerrufen Sie Ihre Einwilligung in die Webanalyse (Opt-Out)</h4>
+      <p>Sie können Ihre einmal erteilte Einwilligung in die Webanalyse jederzeit mit Wirkung für die Zukunft widerrufen:</p>
+      <ul>
+        <li><strong>Direkt auf dieser Seite:</strong> Klicken Sie auf den nachstehenden Button. Dadurch wird die bisherige Einwilligung gelöscht und das Cookie-Banner beim nächsten Seitenaufruf erneut eingeblendet.</li>
+        <li><strong>Über das Cookie-Banner:</strong> Öffnen Sie das Cookie-Banner am unteren Bildschirm­rand und ändern Sie Ihre Auswahl.</li>
+        <li><strong>Über Ihren Browser:</strong> Sie können die Analyse-Cookies _pf_analytics auch direkt in den Einstellungen Ihres Browsers löschen.</li>
+      </ul>
+      <p style="margin-top:1rem;">
+        <button type="button" class="btn btn-ghost" onclick="revokeAnalyticsConsent()" style="font-size:0.82rem;">Einwilligung in die Webanalyse jetzt widerrufen</button>
+        <span id="optout-status" role="status" aria-live="polite" style="display:block;margin-top:0.75rem;font-family:var(--mono);font-size:0.82rem;color:var(--success);"></span>
+      </p>
+
+      <h2>§ 4 Hinweis auf Ihr Widerspruchsrecht nach Artikel 21 DSGVO</h2>
+      <div class="warning-box">
+        <p><strong>Sie haben das Recht, der Verarbeitung Ihrer Daten zu widersprechen, soweit diese auf einem berechtigten Interesse (Artikel 6 Absatz 1 Buchstabe f DSGVO) beruht.</strong> Dies betrifft insbesondere die Erfassung von Server-Protokoll­daten (Abschnitt 3.1) sowie die Bearbeitung allgemeiner Kontakt­anfragen ohne Vertrags­bezug (Abschnitt 3.3).</p>
+      </div>
+      <p>Im Falle eines Widerspruchs werden wir die betroffene Verarbeitung Ihrer personen­bezogenen Daten beenden, es sei denn, wir können zwingende schutz­würdige Gründe für die weitere Verarbeitung nachweisen, die Ihren Interessen, Rechten und Freiheiten überwiegen, oder die Verarbeitung dient der Geltend­machung, Ausübung oder Verteidigung von Rechts­ansprüchen.</p>
+      <p>Den Widerspruch können Sie formlos per E-Mail an <a href="mailto:datenschutz@pixlforge.at">datenschutz@pixlforge.at</a> oder postalisch an die unter § 1 genannte Anschrift richten. Eine besondere Form ist nicht erforderlich.</p>
+
+      <h2>§ 5 Weitergabe von Daten an Dritte</h2>
+      <p>Eine Weitergabe Ihrer personen­bezogenen Daten an Dritte erfolgt nur in den folgenden, eng begrenzten Fällen:</p>
+      <ul>
+        <li>An unsere Zahlungs­dienstleister Stripe Payments Europe Ltd. und PayPal (Europe) S.à r.l. zur Abwicklung des Zahlungs­verkehrs</li>
+        <li>An unseren Hosting-Anbieter, dessen Server sich ausschließlich innerhalb der Europäischen Union befinden, im Rahmen der technischen Bereitstellung der Website</li>
+        <li>An Strafverfolgungs­behörden bei Vorliegen einer entsprechenden behördlichen oder gerichtlichen Anordnung</li>
+      </ul>
+      <p>Mit sämtlichen Auftrags­verarbeitern bestehen schriftliche Auftrags­verarbeitungs­verträge gemäß Artikel 28 DSGVO.</p>
+
+      <h2>§ 6 Ihre Rechte als betroffene Person</h2>
+      <p>Als von der Datenverarbeitung betroffene Person stehen Ihnen die folgenden Rechte zu, die Sie jederzeit gegenüber uns geltend machen können:</p>
+      <ul>
+        <li><strong>Recht auf Auskunft</strong> nach Artikel 15 DSGVO über die zu Ihrer Person gespeicherten Daten</li>
+        <li><strong>Recht auf Berichtigung</strong> nach Artikel 16 DSGVO bei unrichtigen Daten</li>
+        <li><strong>Recht auf Löschung („Recht auf Vergessen­werden")</strong> nach Artikel 17 DSGVO. Dieses Recht besteht jedoch nicht unbeschränkt: Soweit wir gesetzlich zur Aufbewahrung verpflichtet sind — insbesondere zur sieben­jährigen Aufbewahrung von Rechnungs­daten gemäß § 212 UGB und § 132 BAO — können wir Ihre Daten erst nach Ablauf der gesetzlichen Aufbewahrungs­frist löschen.</li>
+        <li><strong>Recht auf Einschränkung</strong> der Verarbeitung nach Artikel 18 DSGVO</li>
+        <li><strong>Recht auf Datenübertragbarkeit</strong> nach Artikel 20 DSGVO in einem strukturierten, gängigen und maschinen­lesbaren Format</li>
+        <li><strong>Widerspruchsrecht</strong> nach Artikel 21 DSGVO — siehe gesonderter Hinweis unter § 4 dieser Erklärung</li>
+        <li><strong>Recht auf Widerruf</strong> einer einmal erteilten Einwilligung mit Wirkung für die Zukunft</li>
+        <li><strong>Recht auf Benachrichtigung bei einer Verletzung des Schutzes Ihrer personen­bezogenen Daten</strong> nach Artikel 34 DSGVO: Wenn eine Verletzung des Schutzes Ihrer Daten voraussichtlich ein hohes Risiko für Ihre persönlichen Rechte und Freiheiten zur Folge hat, werden wir Sie unverzüglich und in klarer und einfacher Sprache über den Vorfall benachrichtigen.</li>
+      </ul>
+      <p>Zur Geltend­machung Ihrer Rechte wenden Sie sich bitte an die unter § 1 genannte Kontakt­adresse oder direkt an <a href="mailto:datenschutz@pixlforge.at">datenschutz@pixlforge.at</a>.</p>
+
+      <h2>§ 7 Beschwerderecht bei der Aufsichts­behörde</h2>
+      <p>Unbeschadet anderer Rechts­behelfe haben Sie das Recht, eine Beschwerde bei der zuständigen Datenschutz-Aufsichts­behörde einzureichen. In Österreich ist dies die <strong>Österreichische Datenschutz­behörde</strong>, Barichgasse 40–42, 1030 Wien, erreichbar per E-Mail unter dsb@dsb.gv.at sowie über die Webadresse <a href="https://www.dsb.gv.at" target="_blank" rel="noopener noreferrer">dsb.gv.at</a>.</p>
+
+      <h2>§ 8 Datensicherheit</h2>
+      <p>Die Übertragung sämtlicher Daten zwischen Ihrem Browser und unseren Servern erfolgt verschlüsselt nach dem aktuellen Stand der Technik (HTTPS mit TLS Version 1.3). Unsere Server­infrastruktur wird in regel­mäßigen Abständen auf sicherheits­relevante Schwachstellen geprüft und entsprechend aktualisiert.</p>
+
+      <h2>§ 9 Änderungen dieser Datenschutz­erklärung</h2>
+      <p>Wir behalten uns vor, diese Datenschutz­erklärung anzupassen, wenn dies aufgrund von Änderungen der recht­lichen Rahmen­bedingungen oder unserer angebotenen Dienst­leistungen erforderlich wird. Die jeweils aktuelle Fassung ist stets auf dieser Seite einsehbar.</p>
+    </div>
+  </div>
+</div><!-- /datenschutz -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  IMPRESSUM                                                ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-impressum" class="page" role="region" aria-label="Impressum">
+  <div class="container-narrow">
+    <div class="legal-header">
+      <h1>Impressum</h1>
+      <p>Pflicht­angaben gemäß § 24 Medien­gesetz (MedienG) und § 5 E-Commerce-Gesetz (ECG)</p>
+    </div>
+    <div class="legal-body">
+      <h2>Medien­inhaberin und Herausgeberin</h2>
+      <p><strong>PixlForge GmbH</strong><br>Mariahilfer Straße 100/15<br>1060 Wien<br>Österreich</p>
+
+      <h2>Kontakt</h2>
+      <p>Telefon: +43 1 234 56 78<br>
+      E-Mail: <a href="mailto:office@pixlforge.at">office@pixlforge.at</a><br>
+      Webadresse: pixlforge.at</p>
+
+      <h2>Unternehmens­angaben</h2>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Angabe</th><th scope="col">Wert</th></tr></thead>
+          <tbody>
+            <tr><td>Rechtsform</td>             <td>Gesellschaft mit beschränkter Haftung (GmbH)</td></tr>
+            <tr><td>Firmenbuch-Nummer</td>      <td>FN 654321 x</td></tr>
+            <tr><td>Firmenbuch-Gericht</td>     <td>Handelsgericht Wien</td></tr>
+            <tr><td>Umsatzsteuer-Identifikations­nummer</td><td>ATU99887766</td></tr>
+            <tr><td>Stammkapital</td>           <td>€ 35.000,–, vollständig einbezahlt</td></tr>
+            <tr><td>Gründungsjahr</td>          <td>2024</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Geschäftsführung</h2>
+      <p>Anna Hofer, Geschäfts­führerin · Markus Kern, Technischer Geschäfts­führer</p>
+
+      <h2>Zuständige Aufsichts­behörde</h2>
+      <p>Magistrat der Stadt Wien, Magistratisches Bezirksamt für den 6. Wiener Gemeinde­bezirk (Mariahilf)</p>
+
+      <h2>Gewerbe­berechtigung</h2>
+      <p>Gewerbeart: Dienstleistungen in der automatischen Daten­verarbeitung und Informations­technik<br>
+      Berechtigungs­art: Freies Gewerbe gemäß § 5 Absatz 2 Gewerbe­ordnung 1994<br>
+      Zuständige Wirtschafts­kammer: Wirtschafts­kammer Wien (WKW), Fachverband UBIT</p>
+
+      <h2>Blattlinie nach § 25 Medien­gesetz</h2>
+      <p>Diese Website dient der öffentlichen Präsentation und dem Online-Vertrieb der Software „PixlForge" sowie der Information bestehender und potenzieller Kundinnen und Kunden über das Produkt, neu erscheinende Versionen, Lizenz­bedingungen und das Unternehmen der PixlForge GmbH.</p>
+
+      <h2>Streit­beilegung</h2>
+      <p>Die Europäische Kommission stellt unter der nachstehenden Adresse eine Plattform zur Online-Streit­beilegung bereit: <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">ec.europa.eu/consumers/odr</a>. PixlForge GmbH ist weder verpflichtet noch bereit, an Streit­beilegungs­verfahren vor einer Verbraucher­schlichtungsstelle teilzunehmen.</p>
+
+      <h2>Haftungsausschluss für externe Links</h2>
+      <p>Trotz sorgfältiger inhaltlicher Kontrolle übernimmt PixlForge GmbH keine Haftung für die Inhalte von Websites Dritter, auf die von dieser Website aus verlinkt wird. Für die Inhalte der verlinkten Seiten sind ausschließlich deren jeweilige Betreiber verantwortlich.</p>
+
+      <h2>Urheberrechts­hinweis</h2>
+      <p>Sämtliche auf dieser Website veröffentlichten eigenen Inhalte — insbesondere Texte, Grafiken, Markenelemente und Layouts — unterliegen dem österreichischen Urheberrecht. Eine Vervielfältigung, Bearbeitung oder Verbreitung außerhalb der vom Urheber­recht ausdrücklich gestatteten Schranken bedarf der vorherigen schriftlichen Zustimmung der PixlForge GmbH. Für Inhalte Dritter — etwa frei lizenzierte Schriftarten oder Icon-Sets — gelten die jeweiligen Original­lizenzen, die auf der Seite „Über uns" im Abschnitt „Mediennachweise" einzeln dokumentiert sind.</p>
+    </div>
+  </div>
+</div><!-- /impressum -->
+
+
+<!-- ╔═══════════════════════════════════════════════════════════╗
+     ║  KONTAKT                                                  ║
+     ╚═══════════════════════════════════════════════════════════╝ -->
+<div id="page-kontakt" class="page" role="region" aria-label="Kontakt">
+  <section style="padding-top:4rem;">
+    <div class="container">
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <h1>Kontakt</h1>
+          <p style="margin-bottom:2rem;">Wir freuen uns über Ihre Anfrage und beantworten gerne Fragen zu Lizenzen, technischen Themen, Geschäfts­partner­schaften und allen sonstigen Anliegen rund um PixlForge.</p>
+
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">📍</div>
+            <div><p class="contact-detail-label">Postanschrift</p><p class="contact-detail-value">Mariahilfer Straße 100/15<br>1060 Wien<br>Österreich</p></div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">📧</div>
+            <div><p class="contact-detail-label">Allgemeine E-Mail</p><p class="contact-detail-value"><a href="mailto:office@pixlforge.at">office@pixlforge.at</a></p></div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">📞</div>
+            <div><p class="contact-detail-label">Telefon</p><p class="contact-detail-value">+43 1 234 56 78</p></div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon" aria-hidden="true">🕐</div>
+            <div><p class="contact-detail-label">Geschäftszeiten</p><p class="contact-detail-value">Montag bis Freitag, 9:00 bis 17:00 Uhr</p></div>
+          </div>
+
+          <div style="margin-top:2rem;padding:1.25rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);font-size:0.85rem;">
+            <p style="font-family:var(--mono);font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;color:var(--text3);margin-bottom:0.75rem;">Themen­bezogene Anlauf­stellen</p>
+            <p><strong>Technische Probleme:</strong> <a href="mailto:support@pixlforge.at">support@pixlforge.at</a></p>
+            <p><strong>Fragen zu Lizenzen:</strong> <a href="mailto:lizenz@pixlforge.at">lizenz@pixlforge.at</a></p>
+            <p><strong>Presse­anfragen:</strong> <a href="mailto:presse@pixlforge.at">presse@pixlforge.at</a></p>
+            <p><strong>Datenschutz­anfragen:</strong> <a href="mailto:datenschutz@pixlforge.at">datenschutz@pixlforge.at</a></p>
+            <p><strong>Barrierefreiheit:</strong> <a href="mailto:a11y@pixlforge.at">a11y@pixlforge.at</a></p>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h2>Nachricht über das Kontakt­formular senden</h2>
+
+          <div id="contact-form-fields">
+            <div class="form-group">
+              <label for="contact-name">Vor- und Nachname <span aria-label="Pflichtfeld">*</span></label>
+              <input type="text" id="contact-name" name="name" required autocomplete="name" placeholder="Max Mustermann" aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="contact-email">E-Mail-Adresse <span aria-label="Pflichtfeld">*</span></label>
+              <input type="email" id="contact-email" name="email" required autocomplete="email" placeholder="max@beispiel.at" aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Betreff Ihrer Anfrage <span aria-label="Pflichtfeld">*</span></label>
+              <select id="contact-subject" name="subject" required aria-required="true">
+                <option value="" disabled selected>Bitte wählen Sie einen Betreff aus …</option>
+                <option value="lizenz">Frage zu einer Lizenz</option>
+                <option value="support">Technischer Support</option>
+                <option value="rechnung">Frage zu Rechnung oder Zahlung</option>
+                <option value="presse">Anfrage von Presse oder Medien</option>
+                <option value="sonstiges">Sonstiges Anliegen</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Ihre Nachricht <span aria-label="Pflichtfeld">*</span></label>
+              <textarea id="contact-message" name="message" required aria-required="true" placeholder="Wie können wir Ihnen weiterhelfen?"></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="contact-privacy" name="privacy" required aria-required="true">
+              <label for="contact-privacy">Ich habe die <a href="#" onclick="showPage('datenschutz'); return false;">Datenschutz­erklärung</a> gelesen und stimme der Verarbeitung meiner Daten zum Zweck der Bearbeitung meiner Anfrage zu. <span aria-label="Pflichtfeld">*</span></label>
+            </div>
+            <button type="button" class="btn btn-primary" onclick="submitContactForm()" style="width:100%;justify-content:center;">Nachricht jetzt absenden</button>
+          </div>
+
+          <div class="form-success" id="contact-success" aria-live="polite">
+            <p style="font-size:2rem;margin-bottom:0.75rem;" aria-hidden="true">✓</p>
+            <h3>Nachricht erfolgreich gesendet</h3>
+            <p>Vielen Dank für Ihre Anfrage. Wir bestätigen den Eingang kurzfristig und melden uns mit einer ausführlichen Antwort innerhalb von ein bis zwei Werktagen bei Ihnen.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div><!-- /kontakt -->
+
+</main>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     PURCHASE MODAL
+═══════════════════════════════════════════════════════════════ -->
+<div id="purchase-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closePurchaseModal()" aria-label="Fenster schließen">×</button>
+    <h2 class="modal-title" id="modal-title">Lizenz erwerben</h2>
+    <p id="modal-desc" style="font-size:0.875rem;margin-bottom:1.75rem;color:var(--text2);"></p>
+    <div class="form-group">
+      <label for="modal-email">E-Mail-Adresse</label>
+      <input type="email" id="modal-email" placeholder="ihre@email.at" autocomplete="email">
+    </div>
+    <div class="form-group">
+      <label for="modal-name">Vor- und Nachname</label>
+      <input type="text" id="modal-name" placeholder="Max Mustermann" autocomplete="name">
+    </div>
+    <button class="btn btn-primary" onclick="completePurchase()" style="width:100%;justify-content:center;">Jetzt kostenpflichtig erwerben</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     COOKIE BANNER
+═══════════════════════════════════════════════════════════════ -->
+<div id="cookie-banner" role="dialog" aria-modal="false" aria-label="Cookie-Einstellungen" aria-describedby="cookie-text">
+  <p id="cookie-text">Diese Website verwendet notwendige Cookies. Mit „Alle akzeptieren" stimmen Sie zusätzlich der Verwendung von Analyse-Cookies zu.
+    <a href="#" onclick="showPage('datenschutz'); return false;">Zur Datenschutz­erklärung</a>
+  </p>
+  <div class="cookie-actions">
+    <button onclick="setCookieConsent('minimal')" aria-label="Ausschließlich notwendige Cookies akzeptieren">Nur notwendige</button>
+    <button class="accept" onclick="setCookieConsent('all')" aria-label="Alle Cookies akzeptieren">Alle akzeptieren</button>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     FOOTER — enthält Kontakt-Link (Punkt 5)
+═══════════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="nav-logo" href="#" onclick="showPage('home'); return false;" aria-label="PixlForge — zur Startseite">
+          <span class="nav-logo-icon" aria-hidden="true">
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="10" width="4" height="4"/><rect x="6" y="6" width="4" height="4"/>
+              <rect x="10" y="2" width="4" height="4"/><rect x="14" y="6" width="4" height="4"/>
+              <rect x="10" y="10" width="4" height="4"/><rect x="6" y="14" width="4" height="4"/>
+            </svg>
+          </span>
+          PixlForge
+        </a>
+        <p>KI-gestützte Grafiksoftware für Illustration, 3D-Modellierung, Architektur und VFX. Einmal kaufen, dauerhaft nutzen.</p>
+        <p style="margin-top:0.5rem;font-family:var(--mono);font-size:0.72rem;color:var(--text3);">© 2024–2026 PixlForge GmbH, Wien</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Produkt</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('features'); return false;">Funktionen</a></li>
+          <li><a href="#" onclick="showPage('shop'); return false;">Lizenzen und Preise</a></li>
+          <li><a href="#" onclick="showPage('shop'); return false;">Plugins</a></li>
+          <li><a href="#" onclick="showPage('shop'); return false;">Systemanforderungen</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('about'); return false;">Über uns</a></li>
+          <li><a href="#" onclick="showPage('about'); return false;">Marken</a></li>
+          <li><a href="#" onclick="showPage('kontakt'); return false;">Kontakt</a></li>
+          <li><a href="#" onclick="showPage('about'); return false;">Barrierefreiheit</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="#" onclick="showPage('lizenz'); return false;">Lizenz­vereinbarung</a></li>
+          <li><a href="#" onclick="showPage('datenschutz'); return false;">Datenschutz­erklärung</a></li>
+          <li><a href="#" onclick="showPage('impressum'); return false;">Impressum</a></li>
+          <li><a href="#" onclick="showPage('about'); return false;">Mediennachweise</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>PixlForge GmbH · FN 654321 x · ATU99887766</p>
+      <nav class="footer-legal" aria-label="Rechtliche Links">
+        <a href="#" onclick="showPage('lizenz'); return false;">Lizenz</a>
+        <a href="#" onclick="showPage('datenschutz'); return false;">Datenschutz</a>
+        <a href="#" onclick="showPage('impressum'); return false;">Impressum</a>
+        <a href="#" onclick="showPage('kontakt'); return false;">Kontakt</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
